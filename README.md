@@ -11,3 +11,10 @@
 - F-string, or formatted string literal is a special type of string in python that allows you to embed expressions using curly braces. It can be represented as 
     print(f"I said: {x}) or print(joke_evaluation.format(hilarious))
 
+- Python's string format method is used to dynamically insert values into a string template.
+
+- The "\" Back slash key is very versatile and is used as an escape character to encode difficult-to-type characters into a string. some examples of its usage are:
+    \n -> New line
+    \t -> Tab
+    \\ -> Back slash
+    \" or \' -> Allows you to include single or double quotes in a string
