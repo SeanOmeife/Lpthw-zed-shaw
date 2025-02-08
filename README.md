@@ -18,3 +18,5 @@
     \t -> Tab
     \\ -> Back slash
     \" or \' -> Allows you to include single or double quotes in a string
+
+- THe "input()" function in python is used to take input from the user. When the function is called, the program execution stops and waits for the user to type something and press Enter
