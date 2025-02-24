@@ -20,3 +20,9 @@
     \" or \' -> Allows you to include single or double quotes in a string
 
 - THe "input()" function in python is used to take input from the user. When the function is called, the program execution stops and waits for the user to type something and press Enter
+
+- You can open, read, print the content of, and close documents in python IDE like this:
+    >>>file = open("name_of_file")
+    >>>content = file.read()
+    >>>print(content)
+    >>>file.close()

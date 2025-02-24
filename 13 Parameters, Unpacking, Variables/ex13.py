@@ -5,10 +5,10 @@ from sys import argv # import argument variable from python feature set
 script, first, second, third = argv # argv is assigned to four variables that will be "unpacked"
 
 
-print("This script is called: ", script)
-print("Your first variable is: ", first )
-print("Your second variable is: ", second)
-print("Your third variable is: ", third)
+print("This script is called: ", script)   # prints string with value stored in variable "argv".
+print("Your first variable is: ", first )  # prints string with value stored in variable "argv".
+print("Your second variable is: ", second) # prints string with value stored in variable "argv".
+print("Your third variable is: ", third) # prints string with value stored in variable "argv".
 
 # Study Drills
 # 1. Giving fewer arguments will trigger an error "ValueError: not enough values to unpack (expected 4, got 3)" meaning that the minimum expected 
