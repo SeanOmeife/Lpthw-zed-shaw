@@ -43,4 +43,4 @@ print(target.read()) # Study drill no 2
 
 # Close the file to save changes and free up system resources
 print("And finally, we close it.")
-target.close
+target.close()
