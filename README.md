@@ -27,6 +27,3 @@
     >>>content = file.read()
     >>>print(content)
     >>>file.close()
-
-- Arguments are the actual values or data passed to the function when it is called. The term "arguments" comes from mathematics and logic where it refers to the input values provided to a function or operation.
-    This is not to be confused with parameters which are variables defined in the functions declaration to act as a placeholder.
