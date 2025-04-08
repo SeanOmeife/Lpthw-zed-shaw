@@ -2,7 +2,7 @@
 
 ### OR Logic
 
-| OR              | TRUE   |          
+| OR              | TRUE?   |          
 |-----------------|--------|         
 |True or False    | True   |
 |True or True     | True   |          
@@ -11,9 +11,27 @@
 
 ### AND Logic
 
-| AND             | TRUE   |
+| AND             | TRUE?   |
 |-----------------|--------|
 | True and False  | False  |
 | True and True   | True   |
 | False and True  | False  |
 | False and False | False  |
+
+### NAND  Logic
+
+| NAND                 | TRUE?  |
+|----------------------|--------|
+| Not (True and False) | True   |
+| Not (True and True)  | False  |
+| Not (False and True) | True   |
+| Not (False and False)| True   |
+
+### NOR Logic
+
+| NOR                   | TRUE   |
+|-----------------------|--------|
+| Not (True or False )  | False  |
+| Not (True or True  )  | False  |
+| Not (False or True )  | False  |
+| Not (False or False)  | True   |
