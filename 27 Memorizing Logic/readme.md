@@ -1,4 +1,5 @@
 # Truth Tables
+This readme file contains logical boolean operations for AND, OR, NOT, NAND, and NOR logic
 
 ### OR Logic
 
