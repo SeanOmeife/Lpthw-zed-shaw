@@ -1,14 +1,15 @@
 # Truth Tables
-This readme file contains logical boolean operations for AND, OR, NOT, NAND, and NOR logic
+
+## This readme file contains logical boolean operations for AND, OR, NOT, NAND, and NOR logic
 
 ### OR Logic
 
-| OR              | TRUE?   |          
-|-----------------|--------|         
+| OR              | TRUE?  |
+|-----------------|--------|
 |True or False    | True   |
-|True or True     | True   |          
-|False or True    | True   |          
-|False or False   | False  |          
+|True or True     | True   |
+|False or True    | True   |
+|False or False   | False  |
 
 ### AND Logic
 
