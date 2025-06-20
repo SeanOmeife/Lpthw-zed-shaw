@@ -26,7 +26,7 @@ print('_' * 10)
 print("Westmeath's abbreviation is:", counties['Westmeath'])
 print("Limerick's abbreviation is:", counties['Limerick'])
 
-# print every county abbreviation
+# print county abbreviation
 print('_' * 10)
 print("Westmeath has:", cities[counties['Westmeath']])
 print("Limerick has:", cities[counties['Limerick']])
