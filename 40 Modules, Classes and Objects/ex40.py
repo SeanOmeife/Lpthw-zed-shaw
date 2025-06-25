@@ -48,6 +48,12 @@ bulls_on_parade = Song(["""They rally around tha family
 With pockets full of shells
                         """])
 
+wheels_on_the_bus = Song(["""The wheels on the bus go round and round,
+Round and round,
+Round and round..."""])
+
 happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
+
+wheels_on_the_bus.sing_me_a_song()
