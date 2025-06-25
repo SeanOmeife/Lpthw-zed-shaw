@@ -32,7 +32,7 @@ for word in urlopen(WORD_URL).readlines():
     
     
     def convert(snippet, phrase):
-        class_names = [w.capitalise() for w in
+        class_names = [w.capitalize() for w in
                        random.sample(WORDS, snippet.count("%%%"))]
         other_names = random.sample(WORDS, snippet.count("***"))
         results = []
@@ -55,7 +55,7 @@ for word in urlopen(WORD_URL).readlines():
                 result = result.replace("***", word, 1)
                 
             # fake parameter lists
-            for word in param names:
+            for word in param_names:
                 result = result.replace("@@@", word, 1)
                 
             results.append(result)
@@ -79,5 +79,7 @@ try:
             
             input("> ")
             print(f"ANSWER: {answer}\n\n")
-except E0FError:
+except EOFError:
     print("\nBye")
+    
+    
