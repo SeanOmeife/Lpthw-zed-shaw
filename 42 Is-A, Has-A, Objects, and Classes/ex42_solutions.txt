@@ -1,0 +1,53 @@
+----ln 6-10
+* Dog is a class that is-a (forgive the grammar) Animal that takes "self" and "name" as parameters.
+* Dog has-a name
+
+----ln 12-17
+* Cat is a class that is-a Animal and takes "self" and "name" as parameters.
+* Cat has-a name
+
+----ln 19-27
+* Person is-a Object that takes "self" and "name" as parameters
+* Person has-a name
+* Person has-a pet
+* "self.pet" creates a place for a pet on the Person object, and setting it to none means the Person doesn't have a pet yet but can be given one later
+
+----ln 30-37
+* Employee is-a Person that takes "self", "name" and "salary" as parameters
+* This is how python calls the parent class' constructor from a child class (i.e Employee class inherits from Person)
+* Employee gets the name attribute from Person
+* Employee has-a salary
+
+----ln 39-41
+* Fish class is-a object without attributes or methods.
+* "pass" lets python know the class is valid, even if it has no content yet.
+
+----ln 43-45
+* Salmon is-a Fish without any content
+
+----ln 47-49
+* Halibut is-a Fish
+
+----ln 55-56
+* satin is-a Cat
+
+----ln 58-59
+* Mary is-a person
+
+----ln 61-62
+* Mary has-a Pet named Satin
+
+----ln 64-65
+* Frank is-a Employee with a salary of 120000
+
+----ln 67-68
+* Frank has-a pet named rover
+
+----ln 70-71
+* FLipper is-a instance of class Fish
+
+----ln 73-74 
+* Crouse is-a instance of class Salmon
+
+----ln 76-77
+* Harry is-a instance of class Halibut
